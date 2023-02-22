@@ -79,21 +79,7 @@ public class userDetails extends JFrame {
         String[] flightTypes = {"Return", "One way"};
         flightTypeJC = new JComboBox(flightTypes);
         add(flightTypeJC);
-
-        travelDate = new JLabel("Enter Travel Date ");
-        add(travelDate);
-        Properties p = new Properties();
-        p.put("text.today", "Today");
-        p.put("text.month", "Month");
-        p.put("text.year", "Year");
-
-        returnDate = new JLabel("Enter Return Date (skip if one way) ");
-        add(returnDate);
-        Properties p1 = new Properties();
-        p.put("text.today", "Today");
-        p.put("text.month", "Month");
-        p.put("text.year", "Year");
-
+       
         paymentLabel = new JLabel("Choose Payment Type:");
         add(paymentLabel);
         String[] paymentType = {"Cash", "Credit Card"};
